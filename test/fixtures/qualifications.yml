@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  quotum_id: 1
+  question_id: 1
+  pre_codes: MyText
+
+two:
+  quotum_id: 1
+  question_id: 1
+  pre_codes: MyText
