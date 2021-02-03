@@ -1,0 +1,31 @@
+const c68 = {
+  id: 278568,
+  cpi: "4.0",
+  length_of_interview: 13,
+  name: "Snuffy",
+  total_remaining: 33,
+  status: 6,
+  supplier_link: "http://www.developingmedia.com/adhoc.php?id=",
+  incidence: 100,
+  reentry_interval: null,
+  days_in_field: 5,
+  max_daily_completes: null,
+  is_retarget: false,
+  is_maid_targeted: false,
+  retarget_count: 0,
+  supported_devices: [0, 1, 2],
+  country_language_id: 1,
+  custom_campaign_qualifications: [
+    { id: 360876304, question_id: 43, pre_codes: [2] },
+    { id: 360876305, question_id: 50005, pre_codes: [0, 1, 2] },
+  ],
+  campaign_quotas: [
+    {
+      id: 1118460,
+      num_respondents: 33,
+      name: "",
+      campaign_qualifications: [{ question_id: 43, pre_codes: [2] }],
+    },
+  ],
+  campaign_relationships: [],
+};

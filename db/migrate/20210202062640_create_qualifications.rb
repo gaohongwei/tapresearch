@@ -7,5 +7,8 @@ class CreateQualifications < ActiveRecord::Migration[5.2]
 
       t.timestamps
     end
+    add_index(:qualifications, :quotum_id)
+    add_index(:qualifications, [:quotum_id, :question_id], unique: true)
+
   end
 end

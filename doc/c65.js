@@ -1,0 +1,31 @@
+const c65 = {
+  id: 278565,
+  cpi: "1.0",
+  length_of_interview: 4,
+  name: "Cookie Monster",
+  total_remaining: 143,
+  status: 6,
+  supplier_link: "http://www.developingmedia.com/adhoc.php?id=",
+  incidence: 23,
+  reentry_interval: null,
+  days_in_field: 5,
+  max_daily_completes: null,
+  is_retarget: false,
+  is_maid_targeted: false,
+  retarget_count: 0,
+  supported_devices: [0, 1, 2],
+  country_language_id: 1,
+  custom_campaign_qualifications: [
+    { id: 360876291, question_id: 43, pre_codes: [2] },
+    { id: 360876292, question_id: 50005, pre_codes: [0, 1, 2] },
+  ],
+  campaign_quotas: [
+    {
+      id: 1118457,
+      num_respondents: 143,
+      name: "",
+      campaign_qualifications: [{ question_id: 43, pre_codes: [2] }],
+    },
+  ],
+  campaign_relationships: [],
+};

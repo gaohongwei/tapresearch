@@ -1,0 +1,31 @@
+const c64 = {
+  id: 278563,
+  cpi: "1.25",
+  length_of_interview: 2,
+  name: "Pizza",
+  total_remaining: 123,
+  status: 6,
+  supplier_link: "http://www.developingmedia.com/adhoc.php?id=",
+  incidence: 50,
+  reentry_interval: null,
+  days_in_field: 5,
+  max_daily_completes: null,
+  is_retarget: false,
+  is_maid_targeted: false,
+  retarget_count: 0,
+  supported_devices: [0, 1, 2],
+  country_language_id: 1,
+  custom_campaign_qualifications: [
+    { id: 360876287, question_id: 43, pre_codes: [1] },
+    { id: 360876288, question_id: 50005, pre_codes: [0, 1, 2] },
+  ],
+  campaign_quotas: [
+    {
+      id: 1118455,
+      num_respondents: 123,
+      name: "",
+      campaign_qualifications: [{ question_id: 43, pre_codes: [1] }],
+    },
+  ],
+  campaign_relationships: [],
+};

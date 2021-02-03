@@ -1,0 +1,5 @@
+
+rake campaign:upload_list
+rake campaign:upload_details campaign_ids=278561,278562,278563,278564,278565,278566,278567,278568,278569,278570
+
+rake campaign:upload_details email="codetest@tap.com" api_token="1c7dd6fd2a94b2e6431b367189aead01" campaign_ids=278561,278562,278563,278564,278565,278566,278567,278568,278569,278570
